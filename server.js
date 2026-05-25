@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Basic root route
 app.get('/', (req, res) => {
     console.log("Asma");
-  res.send('Welcome to the Bullmart Express Server!');
+  res.send('Welcome to the Asma Express Server!');
 });
 
 // --- Start Server ---
